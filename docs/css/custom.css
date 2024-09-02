@@ -1,0 +1,97 @@
+/* Custom CSS for MkDocs Material Theme */
+
+/* Center and style the main title */
+.md-typeset h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #343a40;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Subtitles styling */
+.md-typeset h2, .md-typeset h3 {
+    color: #6c757d;
+    text-align: center;
+}
+
+/* Add padding around the cards */
+.md-typeset .card {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Badge styling */
+.md-typeset .badge {
+    margin-right: 0.5rem;
+}
+
+/* Button styling */
+.md-typeset a.btn {
+    color: #ffffff !important;
+    background-color: #007bff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.md-typeset a.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style project links as buttons */
+.md-typeset a.card-link {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #007bff;
+}
+
+.md-typeset a.card-link:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}
+
+/* Customize the tab navigation */
+.md-tabs__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.md-tabs__link {
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.md-tabs__link--active {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .md-typeset h1 {
+        font-size: 1.5rem;
+    }
+
+    .md-typeset h2, .md-typeset h3 {
+        font-size: 1.25rem;
+    }
+
+    .md-tabs__list {
+        flex-wrap: wrap;
+    }
+
+    .md-tabs__link {
+        margin-bottom: 0.5rem;
+    }
+}
