@@ -27,7 +27,7 @@ aspire to start my own company someday, I'm still figuring out what that venture
 ---
 
 ## Work proposition:
-If you'd like my CV, it's available [here](https://github.com/levensworth/levensworth)
+If you'd like my CV, it's available [here](https://raw.githubusercontent.com/levensworth/levensworth.github.io/master/docs/santiago_bassani_CV.pdf)
 
 
 
