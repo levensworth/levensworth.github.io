@@ -1,0 +1,120 @@
+cv:
+  name: santiago bassani
+  location: Dublin, Ireland
+  email: santiago.bassani96@gmail.com
+  phone: tel:+353-087-613-4007
+  website: https://levensworth.com/
+  social_networks:
+    - network: LinkedIn
+      username: santiago-bassani
+    - network: GitHub
+      username: levensworth
+  sections:
+    Education:
+      - institution: Technical Institute of Buenos Aires (ITBA).
+        area: Software Engineering
+        degree: MS
+        start_date: 2015-02
+        end_date: 2020-12
+    experience:
+      - company: Salesforce
+        position: Senior Machine Learning Engineer 
+        location: Dublin, Ireland
+        start_date: 2023-06
+        end_date: present
+        highlights:
+          - "Design and develop the current ML framework used by 20+ teams in the Data and Analytics pillar 
+            to develop, deploy and maintain supervised AI models. Which reduced time to production in up to 70% and bug incidents 
+            by 80% with a Data Scientists acceptance rate."
+      - company: MuleSoft, a Salesforce company
+        position: Senior Software Engineer
+        location: Buenos Aires, Argentina
+        start_date: 2020-03
+        end_date: 2023-05
+        highlights:
+          - "Senior Software Engineer. Developed the Anypoint copilot microservice, which enables Generative AI capabilities within Mulesoft's IDE. 
+            Used Python with FastAPI, Tensorflow and Numpy to integrate LLMs proxy engines which performed Retrieval Augmented Generation
+            to provide solutions to customers queries. Interactions were stored in PostgreSQL and schemas managed with sqlalchemy 
+            and the shared with multiple engineering departments. (Mar 2023 - Dic 2023)"
+          - "Senior Software Engineer. Developed Churn prediction pipeline using Sklearn, Spark and Ariflow which help save usd 50 millions in customer retention pipelines. (Jan 2023 - Mar 2023)"
+          - "Software Engineer. Developed a custom metrics ingestion and processing pipeline for semi-structured data (code bases) using a Java microservice coordinated by a Spark job and 
+            some Python jobs to run specific NLP tasks. The ingestion pipeline stored metadata in S3, using AWS Athena for scheduled queries and populated a AWS Redshift BI Database.
+            The project involved the (Jan 2021 - Dic 2022)"
+          - "Software Engineer Intern. Led research project focused on customer's use patterns of the DataWeave programming language in Mule Applications. As a direct result of some insights covered 
+            in the project, the language prioritized and scope new features. The project involved developing Scala parsers and Python Sklearn and Transformers libraries.(Mar 2020 - Dic 2020)"
+      - company: ZoomAgri
+        position: Software Engineer Intern
+        location: Buenos Aires, Argentina
+        start_date: 2019-05
+        end_date: 2019-12
+        highlights:
+          - Maintain a Image tagging system which consisted of a mobile app build in  IONIC V4 and a backend using Django, PostgresSQL and some image post processing using AWS Lambdas.
+    Academic:
+      - company: University of Saint Andrews (UDESA)
+        position: Teaching Assistant for Programming Fundamentals course (Pensamiento Computacional)
+        location: Buenos Aires
+        start_date: 2022-03
+        end_date: 2023-05
+        highlights:
+          - Tough the bases of OOP Procedural programming using Python and C.
+      - company: Technical Institute of Buenos Aires (ITBA)
+        position: Teaching Assistant for Imperative Programming course
+        location: Buenos Aires
+        start_date: 2019-01
+        end_date: 2019-06
+        highlights:
+          - Tough the bases of procedural programming using C.
+    projects:
+      - name: Linic News
+        highlights:
+          - "Developed a news aggregation service which summarizes each article using LLMs and 
+            creates a feed based on recommendation algorithms."
+          - 'Tools Used: Python, FastAPI, PostgresSQL, Transformers, AWS,Tensorflow, SQL'
+      - name: Micro Neat
+        highlights:
+          - "Developed a simple yet robust version of the NEAT (NeuroEvolution of Adaptive Topologies) algorithm 
+            which can be used for a multitud of simulated evironments using openai's Gym or as a standalone package."
+          - 'Tools Used: Python, Tensorflow, Numpy, Ray'
+    technologies:
+      - label: Languages
+        details: Python, Java, SQL, JavaScript
+      - label: Technologies
+        details: FastAPI, Tensorflow, Spring, Spark, PostgreSQL, AWS
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: a4paper
+  color: '#000000'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in: []
