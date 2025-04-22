@@ -16,8 +16,8 @@ nav:
   - About me: index.md
   - Projects: projects.md
   - CV: santiago_bassani_CV.pdf
-  # - Blog:   
-  #   - blog/index.md
+  - Blog:   
+    - blog/index.md
 
 extra:
   social:
