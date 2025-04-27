@@ -26,7 +26,8 @@
 ![Transformers](https://img.shields.io/badge/transformers-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white&style=flat-square)  
 ![React](https://shields.io/badge/react-black?logo=react&style=flat-square)  
-**Link:** [See Project](https://github.com/levensworth/linic-news)  
+**Link:** [See Project](https://www.linic.io)  
+**Source:** [See Source](https://github.com/levensworth/linic-news)  
 
 ---
 
